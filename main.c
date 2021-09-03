@@ -5,23 +5,23 @@
 #include "definitions.h"
 #include "funcs.h"
 #include <windows.h>
-
+#include <time.h>
 
 
 
 
 void main(){
     int i = 0;
-    srand(7);
+    srand(NULL);
     Dado dado;
     parametros Parametro;
     printf("inisira a altura maxima:");
-    scanf("%d",Parametro.alturamax);
+    scanf("%d",&Parametro.alturamax);
     montacontorno(&Parametro.alturamax,&dado.alturas);
-    for(i = 0;i<129;i++){
-        printf("%d ",dado.alturas[i]);
-
+    for(i=0;i<=17;i++){
+            printf("%d\n",dado.alturas[i]);
     }
+
 
 
 }

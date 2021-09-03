@@ -1,5 +1,8 @@
 #ifndef DEF
 #define DEF
+
+
+
 typedef struct {
     int alturamax;
     char nomearq;

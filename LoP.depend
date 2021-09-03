@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1630690731 source:c:\users\lhjuc\onedrive\documentos\lop\lop\funcs.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<math.h>
+	"definitions.h"
+	<windows.h>
+
+1630690731 c:\users\lhjuc\onedrive\documentos\lop\lop\definitions.h
+
